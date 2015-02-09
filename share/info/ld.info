@@ -6523,7 +6523,7 @@ contact that organization first.
 individuals in the file 'etc/SERVICE' in the GNU Emacs distribution.
 
    Otherwise, send bug reports for 'ld' to
-<http://www.sourceware.org/bugzilla/>.
+<mailto:sabermod.team@gmail.com>.
 
    The fundamental principle of reporting bugs usefully is this: *report
 all the facts*.  If you are not sure whether to state a fact or leave it
@@ -8191,8 +8191,8 @@ Node: Canonical format277883
 Node: Reporting Bugs282245
 Node: Bug Criteria282939
 Node: Bug Reporting283638
-Node: MRI290676
-Node: GNU Free Documentation License295318
-Node: LD Index320455
+Node: MRI290671
+Node: GNU Free Documentation License295313
+Node: LD Index320450
 
 End Tag Table

@@ -4117,7 +4117,7 @@ recommend you contact that organization first.
 individuals in the file 'etc/SERVICE' in the GNU Emacs distribution.
 
    In any event, we also recommend that you send bug reports for the
-binary utilities to <http://www.sourceware.org/bugzilla/>.
+binary utilities to <mailto:sabermod.team@gmail.com>.
 
    The fundamental principle of reporting bugs usefully is this: *report
 all the facts*.  If you are not sure whether to state a fact or leave it
@@ -4946,7 +4946,7 @@ Node: Architecture Selection154404
 Node: Reporting Bugs155232
 Node: Bug Criteria156011
 Node: Bug Reporting156564
-Node: GNU Free Documentation License163434
-Node: Binutils Index188594
+Node: GNU Free Documentation License163429
+Node: Binutils Index188589
 
 End Tag Table

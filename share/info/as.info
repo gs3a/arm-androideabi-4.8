@@ -22379,7 +22379,7 @@ contact that organization first.
 individuals in the file 'etc/SERVICE' in the GNU Emacs distribution.
 
    In any event, we also recommend that you send bug reports for 'as' to
-<http://www.sourceware.org/bugzilla/>.
+<mailto:sabermod.team@gmail.com>.
 
    The fundamental principle of reporting bugs usefully is this: *report
 all the facts*.  If you are not sure whether to state a fact or leave it
@@ -26360,9 +26360,9 @@ Node: Z8000 Opcodes804042
 Node: Reporting Bugs813984
 Node: Bug Criteria814710
 Node: Bug Reporting815477
-Node: Acknowledgements822121
-Ref: Acknowledgements-Footnote-1827087
-Node: GNU Free Documentation License827113
-Node: AS Index852263
+Node: Acknowledgements822116
+Ref: Acknowledgements-Footnote-1827082
+Node: GNU Free Documentation License827108
+Node: AS Index852258
 
 End Tag Table

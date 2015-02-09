@@ -35489,23 +35489,8 @@ contact that organization first.
    You can find contact information for many support companies and
 individuals in the file 'etc/SERVICE' in the GNU Emacs distribution.
 
-   In any event, we also recommend that you submit bug reports for GDB.
-The preferred method is to submit them directly using GDB's Bugs web
-page (http://www.gnu.org/software/gdb/bugs/).  Alternatively, the e-mail
-gateway <bug-gdb@gnu.org> can be used.
-
-   *Do not send bug reports to 'info-gdb', or to 'help-gdb', or to any
-newsgroups.*  Most users of GDB do not want to receive bug reports.
-Those that do have arranged to receive 'bug-gdb'.
-
-   The mailing list 'bug-gdb' has a newsgroup 'gnu.gdb.bug' which serves
-as a repeater.  The mailing list and the newsgroup carry exactly the
-same messages.  Often people think of posting bug reports to the
-newsgroup instead of mailing them.  This appears to work, but it has one
-problem which can be crucial: a newsgroup posting often lacks a mail
-path back to the sender.  Thus, if we need to ask for more information,
-we may be unable to reach you.  For this reason, it is better to send
-bug reports to the mailing list.
+   In any event, we also recommend that you submit bug reports for GDB
+to <mailto:sabermod.team@gmail.com>.
 
    The fundamental principle of reporting bugs usefully is this: *report
 all the facts*.  If you are not sure whether to state a fact or leave it
@@ -46972,7 +46957,7 @@ Concept Index
                                                              (line   19)
 * record serial communications on file:  Remote Configuration.
                                                              (line   57)
-* recording a session script:            Bug Reporting.      (line  108)
+* recording a session script:            Bug Reporting.      (line   93)
 * recording inferior's execution and replaying it: Process Record and Replay.
                                                              (line    6)
 * redirection:                           Input/Output.       (line    6)
@@ -50777,184 +50762,184 @@ Node: IPA Protocol Commands1394330
 Node: GDB Bugs1395800
 Node: Bug Criteria1396532
 Node: Bug Reporting1397409
-Node: Command Line Editing1405238
-Node: Introduction and Notation1405890
-Node: Readline Interaction1407511
-Node: Readline Bare Essentials1408700
-Node: Readline Movement Commands1410481
-Node: Readline Killing Commands1411439
-Node: Readline Arguments1413355
-Node: Searching1414397
-Node: Readline Init File1416547
-Node: Readline Init File Syntax1417698
-Node: Conditional Init Constructs1432797
-Node: Sample Init File1435320
-Node: Bindable Readline Commands1438434
-Node: Commands For Moving1439486
-Node: Commands For History1440344
-Node: Commands For Text1443739
-Node: Commands For Killing1446462
-Node: Numeric Arguments1448602
-Node: Commands For Completion1449738
-Node: Keyboard Macros1451704
-Node: Miscellaneous Commands1452272
-Node: Readline vi Mode1456120
-Node: Using History Interactively1457030
-Node: History Interaction1457545
-Node: Event Designators1458967
-Node: Word Designators1460104
-Node: Modifiers1461739
-Node: In Memoriam1462960
-Node: Formatting Documentation1463843
-Ref: Formatting Documentation-Footnote-11467219
-Node: Installing GDB1467315
-Node: Requirements1467887
-Ref: Expat1468456
-Node: Running Configure1471023
-Node: Separate Objdir1474802
-Node: Config Names1477781
-Node: Configure Options1479258
-Node: System-wide configuration1481629
-Node: System-wide Configuration Scripts1483589
-Node: Maintenance Commands1484773
-Ref: maint info breakpoints1486428
-Node: Remote Protocol1503774
-Node: Overview1504428
-Ref: Binary Data1506973
-Node: Packets1509498
-Ref: thread-id syntax1510398
-Ref: extended mode1511843
-Ref: ? packet1512101
-Ref: bc1513567
-Ref: bs1513777
-Ref: read registers packet1515394
-Ref: cycle step packet1517330
-Ref: write register packet1519931
-Ref: step with signal packet1520910
-Ref: vCont packet1522386
-Ref: vKill packet1527274
-Ref: X packet1528204
-Ref: insert breakpoint or watchpoint packet1528515
-Node: Stop Reply Packets1532555
-Node: General Query Packets1537321
-Ref: qCRC packet1540151
-Ref: QNonStop1547974
-Ref: QPassSignals1548636
-Ref: QProgramSignals1549843
-Ref: qSearch memory1552358
-Ref: QStartNoAckMode1552866
-Ref: qSupported1553397
-Ref: multiprocess extensions1566095
-Ref: install tracepoint in tracing1568125
-Ref: qXfer read1571509
-Ref: qXfer auxiliary vector read1572004
-Ref: qXfer btrace read1572352
-Ref: qXfer target description read1573419
-Ref: qXfer library list read1573853
-Ref: qXfer svr4 library list read1574509
-Ref: qXfer memory map read1576362
-Ref: qXfer sdata read1576749
-Ref: qXfer siginfo read1577215
-Ref: qXfer spu read1577612
-Ref: qXfer threads read1578136
-Ref: qXfer traceframe info read1578539
-Ref: qXfer unwind info block1578957
-Ref: qXfer fdpic loadmap read1579191
-Ref: qXfer osdata read1579607
-Ref: qXfer write1580869
-Ref: qXfer siginfo write1581436
-Ref: qXfer spu write1581833
-Ref: General Query Packets-Footnote-11584375
-Node: Architecture-Specific Protocol Details1584702
-Node: ARM-Specific Protocol Details1585211
-Node: ARM Breakpoint Kinds1585459
-Node: MIPS-Specific Protocol Details1585790
-Node: MIPS Register packet Format1586073
-Node: MIPS Breakpoint Kinds1587000
-Node: Tracepoint Packets1587418
-Ref: QTEnable1596409
-Ref: QTDisable1596605
-Ref: qTfSTM1602142
-Ref: qTsSTM1602142
-Ref: qTSTMat1603219
-Ref: QTBuffer-size1604370
-Node: Host I/O Packets1606343
-Node: Interrupts1610954
-Node: Notification Packets1612857
-Node: Remote Non-Stop1618277
-Node: Packet Acknowledgment1620567
-Node: Examples1622682
-Node: File-I/O Remote Protocol Extension1623276
-Node: File-I/O Overview1623738
-Node: Protocol Basics1625937
-Node: The F Request Packet1628166
-Node: The F Reply Packet1629067
-Node: The Ctrl-C Message1629985
-Node: Console I/O1631611
-Node: List of Supported Calls1632827
-Node: open1633189
-Node: close1635697
-Node: read1636080
-Node: write1636689
-Node: lseek1637460
-Node: rename1638344
-Node: unlink1639751
-Node: stat/fstat1640698
-Node: gettimeofday1641591
-Node: isatty1642027
-Node: system1642623
-Node: Protocol-specific Representation of Datatypes1644165
-Node: Integral Datatypes1644542
-Node: Pointer Values1645349
-Node: Memory Transfer1646053
-Node: struct stat1646673
-Node: struct timeval1648875
-Node: Constants1649392
-Node: Open Flags1649841
-Node: mode_t Values1650182
-Node: Errno Values1650674
-Node: Lseek Flags1651484
-Node: Limits1651669
-Node: File-I/O Examples1652029
-Node: Library List Format1653117
-Node: Library List Format for SVR4 Targets1655899
-Node: Memory Map Format1658366
-Node: Thread List Format1660941
-Node: Traceframe Info Format1661759
-Node: Branch Trace Format1663445
-Node: Agent Expressions1664790
-Node: General Bytecode Design1667611
-Node: Bytecode Descriptions1672405
-Node: Using Agent Expressions1685836
-Node: Varying Target Capabilities1687813
-Node: Rationale1688974
-Node: Target Descriptions1696363
-Node: Retrieving Descriptions1698237
-Node: Target Description Format1699322
-Node: Predefined Target Types1708365
-Node: Standard Target Features1709749
-Node: AArch64 Features1711637
-Node: ARM Features1712060
-Node: i386 Features1713578
-Node: MicroBlaze Features1715520
-Node: MIPS Features1716097
-Node: M68K Features1717288
-Node: Nios II Features1717951
-Node: PowerPC Features1718349
-Node: S/390 and System z Features1719672
-Node: TIC6x Features1721137
-Node: Operating System Information1721699
-Node: Process list1722534
-Node: Trace File Format1723597
-Node: Index Section Format1725590
-Node: Man Pages1733560
-Node: gdb man1733966
-Node: gdbserver man1740002
-Node: gcore man1747199
-Node: gdbinit man1747856
-Node: Copying1748739
-Node: GNU Free Documentation License1786300
-Node: Concept Index1811447
-Node: Command and Variable Index1941064
+Node: Command Line Editing1404378
+Node: Introduction and Notation1405030
+Node: Readline Interaction1406651
+Node: Readline Bare Essentials1407840
+Node: Readline Movement Commands1409621
+Node: Readline Killing Commands1410579
+Node: Readline Arguments1412495
+Node: Searching1413537
+Node: Readline Init File1415687
+Node: Readline Init File Syntax1416838
+Node: Conditional Init Constructs1431937
+Node: Sample Init File1434460
+Node: Bindable Readline Commands1437574
+Node: Commands For Moving1438626
+Node: Commands For History1439484
+Node: Commands For Text1442879
+Node: Commands For Killing1445602
+Node: Numeric Arguments1447742
+Node: Commands For Completion1448878
+Node: Keyboard Macros1450844
+Node: Miscellaneous Commands1451412
+Node: Readline vi Mode1455260
+Node: Using History Interactively1456170
+Node: History Interaction1456685
+Node: Event Designators1458107
+Node: Word Designators1459244
+Node: Modifiers1460879
+Node: In Memoriam1462100
+Node: Formatting Documentation1462983
+Ref: Formatting Documentation-Footnote-11466359
+Node: Installing GDB1466455
+Node: Requirements1467027
+Ref: Expat1467596
+Node: Running Configure1470163
+Node: Separate Objdir1473942
+Node: Config Names1476921
+Node: Configure Options1478398
+Node: System-wide configuration1480769
+Node: System-wide Configuration Scripts1482729
+Node: Maintenance Commands1483913
+Ref: maint info breakpoints1485568
+Node: Remote Protocol1502914
+Node: Overview1503568
+Ref: Binary Data1506113
+Node: Packets1508638
+Ref: thread-id syntax1509538
+Ref: extended mode1510983
+Ref: ? packet1511241
+Ref: bc1512707
+Ref: bs1512917
+Ref: read registers packet1514534
+Ref: cycle step packet1516470
+Ref: write register packet1519071
+Ref: step with signal packet1520050
+Ref: vCont packet1521526
+Ref: vKill packet1526414
+Ref: X packet1527344
+Ref: insert breakpoint or watchpoint packet1527655
+Node: Stop Reply Packets1531695
+Node: General Query Packets1536461
+Ref: qCRC packet1539291
+Ref: QNonStop1547114
+Ref: QPassSignals1547776
+Ref: QProgramSignals1548983
+Ref: qSearch memory1551498
+Ref: QStartNoAckMode1552006
+Ref: qSupported1552537
+Ref: multiprocess extensions1565235
+Ref: install tracepoint in tracing1567265
+Ref: qXfer read1570649
+Ref: qXfer auxiliary vector read1571144
+Ref: qXfer btrace read1571492
+Ref: qXfer target description read1572559
+Ref: qXfer library list read1572993
+Ref: qXfer svr4 library list read1573649
+Ref: qXfer memory map read1575502
+Ref: qXfer sdata read1575889
+Ref: qXfer siginfo read1576355
+Ref: qXfer spu read1576752
+Ref: qXfer threads read1577276
+Ref: qXfer traceframe info read1577679
+Ref: qXfer unwind info block1578097
+Ref: qXfer fdpic loadmap read1578331
+Ref: qXfer osdata read1578747
+Ref: qXfer write1580009
+Ref: qXfer siginfo write1580576
+Ref: qXfer spu write1580973
+Ref: General Query Packets-Footnote-11583515
+Node: Architecture-Specific Protocol Details1583842
+Node: ARM-Specific Protocol Details1584351
+Node: ARM Breakpoint Kinds1584599
+Node: MIPS-Specific Protocol Details1584930
+Node: MIPS Register packet Format1585213
+Node: MIPS Breakpoint Kinds1586140
+Node: Tracepoint Packets1586558
+Ref: QTEnable1595549
+Ref: QTDisable1595745
+Ref: qTfSTM1601282
+Ref: qTsSTM1601282
+Ref: qTSTMat1602359
+Ref: QTBuffer-size1603510
+Node: Host I/O Packets1605483
+Node: Interrupts1610094
+Node: Notification Packets1611997
+Node: Remote Non-Stop1617417
+Node: Packet Acknowledgment1619707
+Node: Examples1621822
+Node: File-I/O Remote Protocol Extension1622416
+Node: File-I/O Overview1622878
+Node: Protocol Basics1625077
+Node: The F Request Packet1627306
+Node: The F Reply Packet1628207
+Node: The Ctrl-C Message1629125
+Node: Console I/O1630751
+Node: List of Supported Calls1631967
+Node: open1632329
+Node: close1634837
+Node: read1635220
+Node: write1635829
+Node: lseek1636600
+Node: rename1637484
+Node: unlink1638891
+Node: stat/fstat1639838
+Node: gettimeofday1640731
+Node: isatty1641167
+Node: system1641763
+Node: Protocol-specific Representation of Datatypes1643305
+Node: Integral Datatypes1643682
+Node: Pointer Values1644489
+Node: Memory Transfer1645193
+Node: struct stat1645813
+Node: struct timeval1648015
+Node: Constants1648532
+Node: Open Flags1648981
+Node: mode_t Values1649322
+Node: Errno Values1649814
+Node: Lseek Flags1650624
+Node: Limits1650809
+Node: File-I/O Examples1651169
+Node: Library List Format1652257
+Node: Library List Format for SVR4 Targets1655039
+Node: Memory Map Format1657506
+Node: Thread List Format1660081
+Node: Traceframe Info Format1660899
+Node: Branch Trace Format1662585
+Node: Agent Expressions1663930
+Node: General Bytecode Design1666751
+Node: Bytecode Descriptions1671545
+Node: Using Agent Expressions1684976
+Node: Varying Target Capabilities1686953
+Node: Rationale1688114
+Node: Target Descriptions1695503
+Node: Retrieving Descriptions1697377
+Node: Target Description Format1698462
+Node: Predefined Target Types1707505
+Node: Standard Target Features1708889
+Node: AArch64 Features1710777
+Node: ARM Features1711200
+Node: i386 Features1712718
+Node: MicroBlaze Features1714660
+Node: MIPS Features1715237
+Node: M68K Features1716428
+Node: Nios II Features1717091
+Node: PowerPC Features1717489
+Node: S/390 and System z Features1718812
+Node: TIC6x Features1720277
+Node: Operating System Information1720839
+Node: Process list1721674
+Node: Trace File Format1722737
+Node: Index Section Format1724730
+Node: Man Pages1732700
+Node: gdb man1733106
+Node: gdbserver man1739142
+Node: gcore man1746339
+Node: gdbinit man1746996
+Node: Copying1747879
+Node: GNU Free Documentation License1785440
+Node: Concept Index1810587
+Node: Command and Variable Index1940204
 
 End Tag Table
